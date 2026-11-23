@@ -26,4 +26,16 @@ Pendiente de completar con los nombres, versiones y referencias de las librería
 
 ## 5. Otras fuentes
 
-Pendiente de completar con las referencias bibliográficas y recursos técnicos efectivamente consultados.
+### Objetivos de Desarrollo Sostenible
+
+- **Naciones Unidas.** Objetivo 12: Garantizar modalidades de consumo y producción sostenibles. https://www.un.org/sustainabledevelopment/es/sustainable-consumption-production/
+- **Naciones Unidas.** Objetivo 11: Lograr que las ciudades sean más inclusivas, seguras, resilientes y sostenibles. https://www.un.org/sustainabledevelopment/es/cities/
+
+### Investigación del problema
+
+- Investigación realizada por el equipo sobre las dificultades de clasificación de residuos en cafeterías.
+- Encuesta a usuarios sobre sus hábitos de separación de residuos y necesidad de orientación.
+
+### Fuentes técnicas adicionales
+
+Pendiente de incorporar las referencias de componentes, librerías y documentación técnica utilizadas en la implementación final.
