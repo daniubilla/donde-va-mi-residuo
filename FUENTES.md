@@ -15,8 +15,6 @@
 
 ## 3. Uso de inteligencia artificial
 
-## 3. Uso de inteligencia artificial
-
 Durante el desarrollo del proyecto se utilizó **ChatGPT (OpenAI)** como herramienta de apoyo para comprender conceptos técnicos, orientar la programación del ESP32 y resolver dudas relacionadas con la integración de componentes electrónicos.
 
 El equipo también adquirió conocimientos de programación y utilización de **Arduino IDE durante las clases del Taller de Diseño en Ingeniería**, los cuales fueron aplicados al desarrollo del prototipo.
