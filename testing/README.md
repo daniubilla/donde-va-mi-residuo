@@ -1,0 +1,1 @@
+Documentación de las pruebas y validaciones del sistema IoT de clasificación de residuos. Esta carpeta contiene los protocolos de prueba, resultados experimentales, errores detectados y mejoras realizadas durante el desarrollo del prototipo.
