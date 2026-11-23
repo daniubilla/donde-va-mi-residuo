@@ -1,0 +1,1 @@
+Diseño 3D del sistema inteligente de clasificación de residuos, desarrollado en Autodesk Fusion 360. Incluye el modelo del basurero, su estructura, compartimentos y espacio para los componentes electrónicos.
