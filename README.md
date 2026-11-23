@@ -64,3 +64,32 @@ La integración y funcionalidad de cada módulo se documentan en las carpetas co
 Amanda Berstel, Fernanda Lillo y Daniela Ubilla.
 
 Universidad Adolfo Ibáñez, 2026.
+
+## 8. Instalación y uso del sistema
+
+### Requisitos
+
+- Placa ESP32 DevKit.
+- Arduino IDE instalado en el computador.
+- Botones de selección e indicadores LED.
+- Componentes electrónicos y conexiones del prototipo.
+- Conexión WiFi para las funciones de comunicación IoT.
+- Acceso a la plataforma Ubidots.
+
+### Preparación del sistema
+
+1. Abrir el proyecto de Arduino disponible en la carpeta `firmware/`.
+2. Configurar Arduino IDE para utilizar la placa ESP32 correspondiente.
+3. Revisar las conexiones del circuito según el esquemático disponible en `hardware/`.
+4. Configurar la conexión WiFi y las credenciales de Ubidots de forma segura, cuando corresponda.
+5. Compilar y cargar el programa al ESP32.
+6. Verificar que los botones y LEDs respondan según la lógica programada.
+7. Comprobar la recepción de datos en Ubidots, si la conexión está implementada.
+
+### Uso del prototipo
+
+El usuario selecciona el tipo de residuo mediante uno de los seis botones de la interfaz. El ESP32 procesa la selección y activa el indicador LED del contenedor correspondiente.
+
+El sistema contempla registrar datos para su posterior consulta y análisis mediante una plataforma IoT.
+
+**Nota:** Las instrucciones se actualizarán según la configuración definitiva del hardware y firmware.
