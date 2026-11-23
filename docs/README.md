@@ -1,0 +1,1 @@
+Documentación del proyecto «¿Dónde va mi residuo?». Incluye presentaciones, informes y material de apoyo sobre el desarrollo del sistema inteligente IoT para la clasificación y gestión de residuos en cafeterías.
