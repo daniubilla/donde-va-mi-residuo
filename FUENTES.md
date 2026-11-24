@@ -19,10 +19,27 @@ Durante el desarrollo del proyecto se utilizó **ChatGPT (OpenAI)** como herrami
 
 El equipo también adquirió conocimientos de programación y utilización de **Arduino IDE durante las clases del Taller de Diseño en Ingeniería**, los cuales fueron aplicados al desarrollo del prototipo.
 
-La inteligencia artificial se utilizó como herramienta de consulta y apoyo al aprendizaje, no como sustituto del trabajo de diseño y desarrollo del equipo.
-## 4. Librerías y código externo
+La inteligencia artificial se utilizó como herramienta de consulta y apoyo al aprendizaje, no como sustituto del trabajo de diseño y desarrollo del equipo.]
 
-Pendiente de completar con los nombres, versiones y referencias de las librerías y recursos externos efectivamente utilizados en el código final.
+## 4. Librerías y código externo
+### Librerías utilizadas en el firmware
+
+- **WiFi.h:** librería del entorno Arduino para ESP32, utilizada para conectar el microcontrolador a la red WiFi.
+- **WiFiClientSecure.h:** permite realizar conexiones HTTPS.
+- **HTTPClient.h:** permite enviar solicitudes HTTP a la plataforma ThingSpeak.
+- **HX711.h:** librería utilizada para obtener lecturas de la celda de carga mediante el módulo HX711.
+- **math.h:** biblioteca estándar utilizada para operaciones matemáticas.
+
+Las librerías WiFi.h, WiFiClientSecure.h y HTTPClient.h forman parte del entorno Arduino para ESP32. La librería HX711 requiere instalación adicional.
+
+**Plataforma IoT:** ThingSpeak, utilizada para almacenar y visualizar los registros enviados por el ESP32.
+
+**Referencias técnicas:**
+- Arduino ESP32: https://docs.espressif.com/projects/arduino-esp32/en/latest/
+- ThingSpeak: https://thingspeak.mathworks.com/
+- HX711: https://github.com/bogde/HX711
+
+El código fue desarrollado y adaptado para el funcionamiento del prototipo, con apoyo de herramientas de inteligencia artificial declarado en este documento.
 
 ## 5. Otras fuentes
 
