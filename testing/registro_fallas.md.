@@ -1,1 +1,62 @@
+# Registro de fallas y validación del prototipo
 
+## Proyecto: ¿Dónde va mi residuo?
+
+### 1. Objetivo de la prueba
+
+Verificar el funcionamiento de los seis botones del sistema de clasificación de residuos, comprobando que cada pulsación genere la respuesta esperada del indicador LED correspondiente.
+
+### 2. Procedimiento
+
+1. Encender el prototipo con el ESP32 conectado.
+2. Presionar individualmente los seis botones.
+3. Observar y registrar la respuesta de los indicadores LED.
+4. Ante una falla, registrar el comportamiento y la acción correctiva aplicada.
+5. Repetir las pulsaciones para comprobar el funcionamiento posterior.
+
+### 3. Resultados iniciales
+
+| Botón | Resultado |
+|---|---|
+| 1. Vaso transparente / botella | Correcto |
+| 2. Vaso caliente | Correcto |
+| 3. Lata | Correcto |
+| 4. Servilleta | Correcto |
+| 5. Bombilla | Correcto |
+| 6. Otro / no sé | No respondió |
+
+**Resultado inicial:** 5 de 6 botones respondieron correctamente (83,3 %).
+
+### 4. Falla detectada
+
+Durante la primera revisión, el botón 6, correspondiente a la opción «Otro / no sé», no generó la respuesta esperada. Los otros cinco botones continuaron funcionando correctamente.
+
+### 5. Acción correctiva
+
+Se reinició el microcontrolador ESP32 para recuperar el funcionamiento del sistema.
+
+### 6. Verificación posterior
+
+Después del reinicio, se presionó nuevamente el botón 6 y este respondió correctamente.
+
+Posteriormente, se realizaron cinco pulsaciones adicionales, todas exitosas.
+
+**Resultado posterior:** 6 de 6 pulsaciones correctas (100 %).
+
+**Resultado global de las pruebas:** 11 respuestas correctas de 12 pulsaciones registradas (91,7 %).
+
+### 7. Análisis de la falla
+
+El comportamiento observado sugiere una posible falla temporal en la lectura de la entrada digital o en la ejecución del programa.
+
+Sin embargo, no se identificó la causa exacta. El reinicio permitió recuperar el funcionamiento, pero no demuestra que la falla haya sido eliminada definitivamente.
+
+### 8. Conclusiones y mejoras propuestas
+
+La prueba permitió identificar una falla puntual en la respuesta del botón 6 y comprobar que su funcionamiento se recuperó después de reiniciar el ESP32.
+
+Como mejoras futuras, se propone revisar la lectura de las entradas digitales, incorporar mecanismos de detección de fallas y realizar pruebas prolongadas para evaluar la estabilidad del sistema.
+
+La prueba se relaciona directamente con el problema original del proyecto, ya que la correcta respuesta de los botones es necesaria para orientar a los usuarios hacia el contenedor correspondiente y reducir errores en la clasificación de residuos.
+
+**Estado final:** Funcionamiento recuperado durante las pruebas realizadas. Causa de la falla pendiente de diagnóstico.
